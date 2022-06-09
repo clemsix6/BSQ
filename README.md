@@ -8,7 +8,7 @@ La BSQ est un programme qui permet de trouver le plus grand carré dans une map 
 
 ### Fonctionnement
 
-La map est un fichier text comme ci-dessous:
+La map est un fichier texte comme ci-dessous:
 
 ```
 9$
@@ -23,7 +23,7 @@ La map est un fichier text comme ci-dessous:
 ..o.......o................$
 ```
 
-La première ligne permet de préciser le nombre de lignes que comporte le fichier. Les "o" sont des obstacles et les "." des zones vides. Le but est de trouver le plus grand carré dans la map sans qu'il ne contienne d'obstacles ("o") à l'intérrieur.
+La première ligne permet de préciser le nombre de lignes que comporte le fichier. Les "o" sont des obstacles et les "." des zones vides. Le but est de trouver le plus grand carré dans la map sans qu'il ne contienne d'obstacles ("o") à l'intérieur.
 
 Si on lance la BSQ avec la map exemple ci-dessus, on obtient le résultat suivant:
 
@@ -39,11 +39,11 @@ Si on lance la BSQ avec la map exemple ci-dessus, on obtient le résultat suivan
 ..o.......o.................
 ```
 
-Les "x" sont les les caractères qui composent le plus grand carré trouvé.
+Les "x" sont les caractères qui composent le plus grand carré trouvé.
 
 ### Utilisation
 
-Pour utiliser la BSQ il suffit de taper la comande suivant:
+Pour utiliser la BSQ il suffit de taper la commande suivante:
 
 ./bsq example\_file
 
