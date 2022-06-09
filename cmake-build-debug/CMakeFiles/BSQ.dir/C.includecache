@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/clement/Delivery/BSQ/bsq.c
+stdlib.h
+-
+fcntl.h
+-
+stdlib.h
+-
+unistd.h
+-
+sys/stat.h
+-
+include/my.h
+/home/clement/Delivery/BSQ/include/my.h
+
+/home/clement/Delivery/BSQ/include/my.h
+

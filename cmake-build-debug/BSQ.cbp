@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="BSQ"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/clement/Delivery/BSQ/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/clement/Delivery/BSQ/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/clement/Delivery/BSQ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/clement/Delivery/BSQ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/clement/Delivery/BSQ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/clement/Delivery/BSQ/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/clement/Delivery/BSQ/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/clement/Delivery/BSQ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/clement/Delivery/BSQ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/clement/Delivery/BSQ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/clement/Delivery/BSQ/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/clement/Delivery/BSQ/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/clement/Delivery/BSQ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/clement/Delivery/BSQ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/clement/Delivery/BSQ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BSQ">
+				<Option output="/home/clement/Delivery/BSQ/cmake-build-debug/BSQ" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/clement/Delivery/BSQ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/clement/Delivery/BSQ/cmake-build-debug/Makefile&quot;  VERBOSE=1 BSQ"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/clement/Delivery/BSQ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/clement/Delivery/BSQ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/clement/Delivery/BSQ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BSQ/fast">
+				<Option output="/home/clement/Delivery/BSQ/cmake-build-debug/BSQ" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/clement/Delivery/BSQ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/clement/Delivery/BSQ/cmake-build-debug/Makefile&quot;  VERBOSE=1 BSQ/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/clement/Delivery/BSQ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/clement/Delivery/BSQ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/clement/Delivery/BSQ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/clement/Delivery/BSQ/bsq.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/find_biggest_square.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/include/my.h">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_atoi.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_compute_square_root.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_contains.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_find_prime_sup.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_get_pow.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_getnbr.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_is_prime.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_isneg.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_itoa.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_put_nbr.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_putchar.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_puterr.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_putstr.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_revstr.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_show_word_array.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_showstr.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_str_isalpha.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_str_islower.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_str_isnum.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_str_isprintable.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_str_isupper.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_strcapitalize.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_strcat.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_strcmp.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_strcpy.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_strdup.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_strlen.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_strlowcase.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_strncat.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_strncmp.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_strncpy.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_strupcase.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/lib/my/my_swap.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/load_file_in_mem.c">
+			<Option target="BSQ"/>
+		</Unit>
+		<Unit filename="/home/clement/Delivery/BSQ/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
